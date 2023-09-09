@@ -1,3 +1,19 @@
-.App {
-  text-align: center;
+body {
+  min-width: 100vw;
+  min-height: 100vh; 
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(189,80,228,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.root-div {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  font-size: 30px;
+  color: white;
+  padding: 2.5rem 5rem;
+  margin: 0;
 }
